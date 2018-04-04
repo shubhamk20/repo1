@@ -19,6 +19,7 @@ public class Home {
 	  Actions builder=new Actions(driver);
 	  builder.moveToElement(driver.findElement(By.xpath("//*[@id=\"primary-menu\"]/li[8]"))).perform();
 	  driver.findElement(By.xpath("//*[@id=\"primary-menu\"]/li[8]/ul/li[1]")).click();
+	  System.out.println("First Change");
   }
   @BeforeTest
   public void beforeTest() {
